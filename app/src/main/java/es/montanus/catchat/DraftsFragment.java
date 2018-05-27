@@ -1,9 +1,8 @@
 package es.montanus.catchat;
 
-public class InboxFragment extends BaseFragment {
-
+public class DraftsFragment extends BaseFragment {
     @Override
     protected CharSequence getMessage() {
-        return getString(R.string.inbox);
+        return getString(R.string.drafts);
     }
 }
